@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Vulns tag="customErrors">
+  <PreReq></PreReq>
+  <Vulnerability>
+    <Tag>customErrors</Tag>
+    <Property>mode</Property>
+    <Value>Off</Value>
+    <DefaultValue>RemoteOnly</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Custom Errors Disabled</Title>
+  </Vulnerability>
+</Vulns>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Vulns tag="roleManager">
+  <PreReq>
+    <PreqTag>roleManager</PreqTag>
+    <PreqProperty>enabled</PreqProperty>
+    <PreqValue>true</PreqValue>
+  </PreReq>
+
+  <Vulnerability>
+    <Tag>roleManager</Tag>
+    <Property>cookieRequireSSL</Property>
+    <Value>false</Value>
+    <DefaultValue>false</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>roleManager cookies doesn't Require SSL</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>roleManager</Tag>
+    <Property>cookieSlidingExpiration</Property>
+    <Value>true</Value>
+    <DefaultValue>true</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>roleManager Cookie Sliding Expiration Used</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>roleManager</Tag>
+    <Property>cookieProtection</Property>
+    <Value>None</Value>
+    <DefaultValue>All</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>roleManager cookies are not both encrypted - validated</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>roleManager</Tag>
+    <Property>cookieProtection</Property>
+    <Value>Encryption</Value>
+    <DefaultValue>All</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>roleManager cookie are not validated</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>roleManager</Tag>
+    <Property>cookieProtection</Property>
+    <Value>Validation</Value>
+    <DefaultValue>All</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>roleManager cookie are not encrypted</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>roleManager</Tag>
+    <Property>cookiePath</Property>
+    <Value>/</Value>
+    <DefaultValue>/</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>roleManager cookie path is Liberal</Title>
+  </Vulnerability>
+
+</Vulns>

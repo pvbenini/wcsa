@@ -1,0 +1,15 @@
+﻿<Vulns tag="forms">
+  <PreReq>
+    <PreqTag>trace</PreqTag>
+    <PreqProperty>enabled</PreqProperty>
+    <PreqValue>true</PreqValue>
+  </PreReq>
+  <Vulnerability>
+    <Tag>trace</Tag>
+    <Property>localOnly</Property>
+    <Value>false</Value>
+    <DefaultValue>true</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Trace is enabled</Title>
+  </Vulnerability>
+</Vulns>

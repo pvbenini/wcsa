@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Vulns tag="user">
+  <PreReq>
+
+  </PreReq>
+  <Vulnerability>
+    <Tag>user</Tag>
+    <Property>name</Property>
+    <Value></Value>
+    <DefaultValue></DefaultValue>
+    <Operator>NotEqual</Operator>
+    <Title>Hardcoded Credentials Used</Title>
+  </Vulnerability>
+
+
+</Vulns>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Vulns tag="trust">
+  <PreReq></PreReq>
+  <Vulnerability>
+    <Tag>trust</Tag>
+    <Property>level</Property>
+    <Value>Minimal</Value>
+    <DefaultValue>Full</DefaultValue>
+    <Operator>NotEqual</Operator>
+    <Title>Your web application's trust level is higher than Minimal</Title>
+  </Vulnerability>
+</Vulns>

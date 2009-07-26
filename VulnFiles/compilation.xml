@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Vulns tag="compilation">
+  <PreReq></PreReq>
+  <Vulnerability>
+    <Tag>compilation</Tag>
+    <Property>debug</Property>
+    <Value>true</Value>
+    <DefaultValue>false</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Debugging Enabled</Title>
+  </Vulnerability>
+
+</Vulns>
+

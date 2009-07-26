@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Vulns tag="forms">
+  <PreReq>
+    <PreqTag>authentication</PreqTag>
+    <PreqProperty>mode</PreqProperty>
+    <PreqValue>Forms</PreqValue>
+  </PreReq>
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>cookieless</Property>
+    <Value>UseUri</Value>
+    <DefaultValue>UseDeviceProfile</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Cookieless Authentication Enabled</Title>
+  </Vulnerability>
+  
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>cookieless</Property>
+    <Value>AutoDetect</Value>
+    <DefaultValue>UseDeviceProfile</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Cookieless Authentication may be enabled</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>cookieless</Property>
+    <Value>UseDeviceProfile</Value>
+    <DefaultValue>UseDeviceProfile</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Cookieless Authentication may be enabled</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>requireSSL</Property>
+    <Value>false</Value>
+    <DefaultValue>false</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Doesn't Require SSL for Auth. Cookies</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>name</Property>
+    <Value>.ASPXAUTH</Value>
+    <DefaultValue>.ASPXAUTH</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Non-Unique Authentication Cookie Used</Title>
+  </Vulnerability>
+  
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>slidingExpiration</Property>
+    <Value>true</Value>
+    <DefaultValue>true</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Sliding Expiration Used</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>path</Property>
+    <Value>/</Value>
+    <DefaultValue>/</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Liberal Path Defined</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>enableCrossAppRedirects</Property>
+    <Value>true</Value>
+    <DefaultValue>false</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>URL Redirection is enabled</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>protection</Property>
+    <Value>None</Value>
+    <DefaultValue>All</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Your form tickets are not both encrypted-validated</Title>
+  </Vulnerability>
+  
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>protection</Property>
+    <Value>Encryption</Value>
+    <DefaultValue>All</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Your form tickets are not validated</Title>
+  </Vulnerability>
+  
+  <Vulnerability>
+    <Tag>forms</Tag>
+    <Property>protection</Property>
+    <Value>Validation</Value>
+    <DefaultValue>All</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Your form tickets are not encrypted</Title>
+  </Vulnerability>
+</Vulns>
