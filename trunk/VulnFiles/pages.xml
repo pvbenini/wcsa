@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Vulns tag="pages">
+  <PreReq>
+  </PreReq>
+  <Vulnerability>
+    <Tag>pages</Tag>
+    <Property>enableViewState</Property>
+    <Value>false</Value>
+    <DefaultValue>true</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Viewstate for CSRF</Title>
+  </Vulnerability>
+  <Vulnerability>
+    <Tag>pages</Tag>
+    <Property>enableViewStateMac</Property>
+    <Value>false</Value>
+    <DefaultValue>true</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>No integrity check on ViewState</Title>
+  </Vulnerability>
+  <Vulnerability>
+    <Tag>pages</Tag>
+    <Property>viewStateEncryptionMode</Property>
+    <Value>Never</Value>
+    <DefaultValue>Auto</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>ViewState is not encrypted</Title>
+  </Vulnerability>
+  <Vulnerability>
+    <Tag>pages</Tag>
+    <Property>viewStateEncryptionMode</Property>
+    <Value>Auto</Value>
+    <DefaultValue>Auto</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>ViewState may not be encrypted</Title>
+  </Vulnerability>
+  <Vulnerability>
+    <Tag>pages</Tag>
+    <Property>validateRequest</Property>
+    <Value>false</Value>
+    <DefaultValue>true</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Page Validation is not using</Title>
+  </Vulnerability>
+</Vulns>

@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\ASPAuditor\ASPAuditor\bin\Debug\ASPAuditor.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\ASPAuditor\ASPAuditor\bin\Debug\ASPAuditor.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\ASPAuditor\ASPAuditor\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\ASPAuditor\ASPAuditor\obj\Debug\ASPAuditor.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\ASPAuditor\ASPAuditor\obj\Debug\ASPAuditor.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\ASPAuditor\ASPAuditor\bin\Release\ASPAuditor.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\ASPAuditor\ASPAuditor\bin\Release\ASPAuditor.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\ASPAuditor\ASPAuditor\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\ASPAuditor\ASPAuditor\obj\Release\ASPAuditor.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2005\Projects\ASPAuditor\ASPAuditor\obj\Release\ASPAuditor.pdb

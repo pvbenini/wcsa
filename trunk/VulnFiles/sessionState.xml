@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Vulns tag="sessionState">
+  <PreReq>
+
+  </PreReq>
+  <Vulnerability>
+    <Tag>sessionState</Tag>
+    <Property>cookieless</Property>
+    <Value>UseUri</Value>
+    <DefaultValue>UseCookies</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Cookieless Session State Enabled</Title>
+  </Vulnerability>
+
+
+
+</Vulns>

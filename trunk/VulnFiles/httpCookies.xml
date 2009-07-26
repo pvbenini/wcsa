@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Vulns tag="httpCookies">
+  <PreReq>
+    
+  </PreReq>
+  <Vulnerability>
+    <Tag>httpCookies</Tag>
+    <Property>httpOnlyCookies</Property>
+    <Value>false</Value>
+    <DefaultValue>false</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Web cookies are not HttpOnly</Title>
+  </Vulnerability>
+
+  <Vulnerability>
+    <Tag>httpCookies</Tag>
+    <Property>requireSSL</Property>
+    <Value>false</Value>
+    <DefaultValue>false</DefaultValue>
+    <Operator>Equal</Operator>
+    <Title>Web cookies doesn't require SSL</Title>
+  </Vulnerability>
+  
+</Vulns>
