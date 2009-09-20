@@ -22,7 +22,7 @@ namespace WCSAGUI
             System.IO.Stream myStream;
             ScanEngine se = new ScanEngine();
             OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "web.config Files (*.config)|Text Files (*.txt)";
+            ofd.Filter = "web.config Files (*.config)|*.config|Text Files (*.txt)|*.txt| All Files (*.*)|*.*";
             ofd.RestoreDirectory = true;
 
             if (ofd.ShowDialog() == DialogResult.OK)
@@ -34,7 +34,8 @@ namespace WCSAGUI
                         using (myStream)
                         {
                             se.StartScan(ofd.FileName);
-                            new Reporter(se.vulns, Application.ExecutablePath);
+                            new Reporter(se.vulns, ofd.FileName);
+                            
                         }
                     }
                 }

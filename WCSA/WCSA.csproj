@@ -74,42 +74,42 @@
     <Content Include="Reporting\owasp.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="VulnFiles\compilation.xml">
+    <EmbeddedResource Include="VulnFiles\compilation.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\credentials.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\credentials.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\customErrors.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\customErrors.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\forms.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\forms.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\httpCookies.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\httpCookies.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\httpRunTime.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\httpRunTime.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\pages.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\pages.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\roleManager.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\roleManager.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\sessionState.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\sessionState.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\trace.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\trace.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\trust.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\trust.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="VulnFiles\user.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="VulnFiles\user.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="SampleConfigs\n2-web.config">
