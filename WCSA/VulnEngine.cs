@@ -18,7 +18,9 @@
         public static Vulnerability[] LoadVulns()
         {
             vulns = new Vulnerability[400];
-            foreach (string str in Directory.GetFiles("VulnFiles"))
+            if (!Directory.Exists(Constants.VULN_PATH))
+                throw new WCSAException(Constants.FILE_NOT_FOUND_ERROR);
+            foreach (string str in Directory.GetFiles(Constants.VULN_PATH))
             {
                 VulnParser(str);
             }

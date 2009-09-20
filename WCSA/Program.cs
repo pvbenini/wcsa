@@ -22,7 +22,7 @@
             else
             {
                 engine.StartScan(path);
-                new Reporter(engine.vulns, path);
+                //call reporter
             }
         }
 

@@ -55,6 +55,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="WCSAException.cs" />
     <Compile Include="Operator.cs" />
     <Compile Include="PreReq.cs" />
     <Compile Include="Program.cs" />
