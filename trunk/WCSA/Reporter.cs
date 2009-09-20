@@ -9,11 +9,16 @@
         private string issueTemplate;
         private string tail;
 
-        public Reporter(Vulnerability[] vulns, string path)
+        public Reporter() { }
+        public string GenerateReport(Vulnerability[] vulns, string path)
         {
-            StreamReader reader = new StreamReader("Reporting/head.html");
+            if (!Directory.Exists(Constants.REPORT_PATH) || !File.Exists(Constants.REPORT_PATH + "/" + Constants.REPORT_HEAD_FILE) || !File.Exists(Constants.REPORT_PATH + "/" + Constants.REPORT_HEAD_FILE))
+                throw new WCSAException(Constants.FILE_NOT_FOUND_ERROR);
+                
+            StreamReader reader = new StreamReader(Constants.REPORT_PATH+"/"+Constants.REPORT_HEAD_FILE);
             string str = @"\//";
-            StreamWriter writer = new StreamWriter("Report-" + path.Substring(path.LastIndexOfAny(str.ToCharArray()) + 1) + ".html");
+            string filePath = "Report-" + path.Substring(path.LastIndexOfAny(str.ToCharArray()) + 1) + ".html";
+            StreamWriter writer = new StreamWriter(filePath);
             int num = 0;
             foreach (Vulnerability vulnerability in vulns)
             {
@@ -46,7 +51,10 @@
             }
             writer.Write(this.tail);
             writer.Close();
+            return filePath;
         }
+
+        
     }
 }
 
