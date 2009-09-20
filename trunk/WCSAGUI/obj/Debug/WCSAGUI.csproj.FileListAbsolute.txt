@@ -1,6 +1,5 @@
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\bin\Debug\WCSAGUI.exe
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\bin\Debug\WCSAGUI.pdb
-C:\Users\Mesut\Desktop\WCSA\WCSAGUI\bin\Debug\WCSA.dll
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\bin\Debug\WCSA.pdb
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\obj\Debug\WCSAGUI.Form1.resources
@@ -8,3 +7,4 @@ C:\Users\Mesut\Desktop\WCSA\WCSAGUI\obj\Debug\WCSAGUI.Properties.Resources.resou
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\obj\Debug\WCSAGUI.csproj.GenerateResource.Cache
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\obj\Debug\WCSAGUI.exe
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\obj\Debug\WCSAGUI.pdb
+C:\Users\Mesut\Desktop\WCSA\WCSAGUI\bin\Debug\WCSA.dll
