@@ -34,7 +34,6 @@ namespace WCSAGUI
         {
             string filePath = "";
             System.IO.Stream myStream;
-
             OpenFileDialog ofd = new OpenFileDialog();
             StreamReader streamReader;
             ofd.Filter = "web.config Files (*.config)|*.config|Text Files (*.txt)|*.txt| All Files (*.*)|*.*";
@@ -73,6 +72,23 @@ namespace WCSAGUI
                     MessageBox.Show("Error: Could not read file from disk. Original error: " + ex.Message);
                 }
             }
+        }
+
+        private void saveCurrentReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            webBrowser1.ShowSaveAsDialog();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutForm aboutForm = new AboutForm();
+            //aboutForm.Show();
+            aboutForm.ShowDialog();
         }
     }
 }
