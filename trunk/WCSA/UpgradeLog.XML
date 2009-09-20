@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ASPAuditor">
+</Property><Property Name="Solution File" Value="C:\Users\Mesut\Desktop\WCSA\ASPAuditor.sln">
+</Property><Property Name="Date" Value="20 Eylül 2009 Pazar">
+</Property><Property Name="Time" Value="20:39:17">
+</Property></Properties><Event ErrorLevel="0" Project="ASPAuditor" Source="ASPAuditor.csproj" Description="Project file successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\ASPAuditor.csproj">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="PreReq.cs" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\PreReq.cs">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="Program.cs" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="Reporter.cs" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\Reporter.cs">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="ScanEngine.cs" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\ScanEngine.cs">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnEngine.cs" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnEngine.cs">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="Vulnerability.cs" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\Vulnerability.cs">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\compilation.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\compilation.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\credentials.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\credentials.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\customErrors.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\customErrors.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\forms.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\forms.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\httpCookies.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\httpCookies.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\httpRunTime.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\httpRunTime.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\pages.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\pages.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\roleManager.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\roleManager.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\sessionState.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\sessionState.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\trace.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\trace.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\trust.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\trust.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="VulnFiles\user.xml" Description="File successfully backed up as C:\Users\Mesut\Desktop\WCSA\Backup\VulnFiles\user.xml">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="ASPAuditor.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ASPAuditor" Source="ASPAuditor.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ASPAuditor" Source="ASPAuditor.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
