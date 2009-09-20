@@ -11,6 +11,6 @@ namespace WCSA
         public const string REPORT_HEAD_FILE = "head.html";
         public const string REPORT_ISSUE_FILE = "issue.html";
         public const string FILE_NOT_FOUND_ERROR = "FILE_NOT_FOUND_ERROR";
-        public const string FILE_NOT_FOUND_MESSAGE = "Error : Some files are missing. Please re-download whole package from project page";
+        public const string FILE_NOT_FOUND_MESSAGE = "Error : Some files are missing. Please re-download whole package from project page.";
     }
 }
