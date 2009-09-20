@@ -1,153 +1,176 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Data;
-using System.Text;
-using System.Xml;
-using System.Xml.Serialization;
-using System.IO;
-
-namespace ASPAuditor
+﻿namespace ASPAuditor
 {
-    class VulnEngine
+    using System;
+    using System.Collections;
+    using System.IO;
+    using System.Xml;
+
+    internal class VulnEngine
     {
-        public static void VulnParser(string filePath)
+        private static int i = 0;
+        private static Vulnerability[] vulns;
+
+        public static Vulnerability CreateVuln(string code, Operator op, Hashtable test, string title, string codename, PreReq pr, bool def, string description)
         {
-
-            Hashtable test = new Hashtable();
-            
-            string tag = "";
-            string property = "";
-            string value = "";
-            string defvalue = "";
-            string title = "";
-            string temp = "";
-            string code = "";
-
-            string preqTag = "";
-            string preqProperty = "";
-            string preqValue = "";
-
-            Operator op = new Operator();
-            PreReq pr = new PreReq("", "", "");
-            bool def = false;
-
-            XmlTextReader reader = new XmlTextReader(filePath);
-            while (reader.Read())
-            {
-                if (reader.NodeType == XmlNodeType.EndElement)
-                {
-                    if (reader.Name == "Vulnerability")
-                    {
-                        code = String.Format("AA-{0:d2}", i);
-                        test.Add(property, value);
-                        pr = new PreReq(preqTag, preqProperty, preqValue);
-                        if (preqTag == "")
-                            pr.isPassed = true;
-                        else
-                            pr.isPassed = false;
-                        switch (op)
-                        {
-                            case Operator.Equal:
-                                if (defvalue.ToString() == value.ToString())
-                                    def = true;
-                                else
-                                    def = false;
-                                break;
-
-                            case Operator.NotEqual:
-                                if (defvalue.ToString() != value.ToString())
-                                    def = true;
-                                else
-                                    def = false;
-                                break;
-                        }
-                   
-                        vulns[i++] = CreateVuln(code, op, test, title, tag, pr,def);
-                        test.Clear();
-                        continue;
-                    }
-                }
-                if (reader.NodeType != XmlNodeType.Element)
-                    continue;
-
-                switch (reader.Name)
-                {
-                    case "Tag":
-                        tag = reader.ReadString();
-                        break;
-                    case "Property":
-                        property = reader.ReadString();
-                        break;
-                    case "Value":
-                        value = reader.ReadString();
-                        break;
-                    case "DefaultValue":
-                        defvalue = reader.ReadString();
-                        break;
-                    case "Operator":
-                        temp = reader.ReadString();
-                        switch (temp)
-                        {
-                            case "Equal":
-                                op = Operator.Equal;
-                                break;
-                            case "NotEqual":
-                                op = Operator.NotEqual;
-                                break;
-                            case "Greater":
-                                op = Operator.Greater;
-                                break;
-                            case "Lower":
-                                op = Operator.Lower;
-                                break;
-                        }
-                        break;
-                    case "Title":
-                        title = reader.ReadString();
-                        break;
-
-                    //parsing prerequisit
-                    case "PreqTag":
-                        preqTag = reader.ReadString();
-                        break;
-                    case "PreqProperty":
-                        preqProperty = reader.ReadString();
-                        break;
-                    case "PreqValue":
-                        preqValue = reader.ReadString();
-                        break;
-
-                }
-
-
-            }
+            return new Vulnerability { code = code, op = op, title = title, codename = codename, test = new Hashtable(test), pr = pr, def = def, desc = description };
         }
+
         public static Vulnerability[] LoadVulns()
         {
             vulns = new Vulnerability[400];
-            string[] filePaths = Directory.GetFiles(@"../../VulnFiles");
-            foreach (string filePath in filePaths)
-                VulnParser(filePath);
+            foreach (string str in Directory.GetFiles("VulnFiles"))
+            {
+                VulnParser(str);
+            }
             return vulns;
-
         }
 
-        public static Vulnerability CreateVuln(string code, Operator op, Hashtable test, string title, string codename, PreReq pr, bool def)
+        public static void VulnParser(string filePath)
         {
-            Vulnerability myVuln = new Vulnerability();
+            Hashtable test = new Hashtable();
+            string codename = "";
+            string key = "";
+            string str3 = "";
+            string str4 = "";
+            string title = "";
+            string code = "";
+            string description = "";
+            string str9 = "";
+            string str10 = "";
+            string str11 = "";
+            Operator equal = Operator.Equal;
+            PreReq pr = new PreReq("", "", "");
+            bool def = false;
+            XmlTextReader reader = new XmlTextReader(filePath);
+            while (reader.Read())
+            {
+                if ((reader.NodeType != XmlNodeType.EndElement) || !(reader.Name == "Vulnerability"))
+                {
+                    goto Label_0163;
+                }
+                code = string.Format("AA-{0:d2}", i);
+                test.Add(key, str3);
+                pr = new PreReq(str9, str10, str11);
+                if (str9 == "")
+                {
+                    pr.isPassed = true;
+                }
+                else
+                {
+                    pr.isPassed = false;
+                }
+                switch (equal)
+                {
+                    case Operator.Equal:
+                        if (str4.ToString() == str3.ToString())
+                        {
+                            def = true;
+                        }
+                        else
+                        {
+                            def = false;
+                        }
+                        break;
 
-            myVuln.code = code;
-            myVuln.op = op;
-            myVuln.title = title;
-            myVuln.codename = codename;
- 
-            myVuln.test = new Hashtable(test);
-            myVuln.pr = pr;
-            myVuln.def = def;
-            return myVuln;
+                    case Operator.NotEqual:
+                        if (str4.ToString() != str3.ToString())
+                        {
+                            def = true;
+                        }
+                        else
+                        {
+                            def = false;
+                        }
+                        goto Label_0132;
+                }
+            Label_0132:
+                vulns[i++] = CreateVuln(code, equal, test, title, codename, pr, def, description);
+                test.Clear();
+                continue;
+            Label_0163:
+                if (reader.NodeType == XmlNodeType.Element)
+                {
+                    switch (reader.Name)
+                    {
+                        case "Tag":
+                        {
+                            codename = reader.ReadString();
+                            continue;
+                        }
+                        case "Property":
+                        {
+                            key = reader.ReadString();
+                            continue;
+                        }
+                        case "Value":
+                        {
+                            str3 = reader.ReadString();
+                            continue;
+                        }
+                        case "DefaultValue":
+                        {
+                            str4 = reader.ReadString();
+                            continue;
+                        }
+                        case "Operator":
+                        {
+                            switch (reader.ReadString())
+                            {
+                                case "Equal":
+                                    goto Label_02DD;
+
+                                case "NotEqual":
+                                    goto Label_02E2;
+
+                                case "Greater":
+                                    goto Label_02E7;
+
+                                case "Lower":
+                                    goto Label_02EC;
+                            }
+                            continue;
+                        }
+                        case "Title":
+                        {
+                            title = reader.ReadString();
+                            continue;
+                        }
+                        case "Description":
+                        {
+                            description = reader.ReadString();
+                            continue;
+                        }
+                        case "PreqTag":
+                        {
+                            str9 = reader.ReadString();
+                            continue;
+                        }
+                        case "PreqProperty":
+                        {
+                            str10 = reader.ReadString();
+                            continue;
+                        }
+                        case "PreqValue":
+                        {
+                            str11 = reader.ReadString();
+                            continue;
+                        }
+                    }
+                }
+                continue;
+            Label_02DD:
+                equal = Operator.Equal;
+                continue;
+            Label_02E2:
+                equal = Operator.NotEqual;
+                continue;
+            Label_02E7:
+                equal = Operator.Greater;
+                continue;
+            Label_02EC:
+                equal = Operator.Lower;
+            }
         }
-        private static int i = 0;
-        private static Vulnerability[] vulns;
     }
 }
+

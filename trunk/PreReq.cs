@@ -1,20 +1,20 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ASPAuditor
+﻿namespace ASPAuditor
 {
-    class PreReq
+    using System;
+
+    internal class PreReq
     {
+        public bool isPassed = true;
+        public string property;
+        public string tag;
+        public string value;
+
         public PreReq(string tag_, string property_, string value_)
         {
-            tag = tag_;
-            property = property_;
-            value = value_;
+            this.tag = tag_;
+            this.property = property_;
+            this.value = value_;
         }
-        public string tag;
-        public string property;
-        public string value;
-        public bool isPassed = true;
     }
 }
+
