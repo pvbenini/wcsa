@@ -1,34 +1,32 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Data;
-using System.Text;
-using System.Xml;
-using System.Xml.Serialization;
-using System.IO;
-
-namespace ASPAuditor
+﻿namespace ASPAuditor
 {
-    
-    class Program
+    using System;
+    using System.IO;
+
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
-            ScanEngine newScan = new ScanEngine();
-            //newScan.StartScan(@"C:\Inetpub\wwwroot\RAD\web.config");
-            //newScan.StartScan(@"C:\web.config");
-            //newScan.StartScan(@"C:\Documents and Settings\Administrator\Desktop\ASPAuditor\strong-web.config");
-            if (args.Length<1 || !File.Exists(args[0]))
+            ScanEngine engine = new ScanEngine();
+
+            string path;
+            if (args.Length > 1)
+                path = args[0].ToString();
+            else 
                 Usage();
+            path = @"SampleConfigs/n2-web.config";
+            if ((path.Length < 1) || !File.Exists(path))
+            {
+                Usage();
+            }
             else
             {
-                newScan.StartScan(args[0]);
+                engine.StartScan(path);
+                new Reporter(engine.vulns, path);
             }
-            
-            //newScan.PrintVulnerabilities();
-            //newScan.PrintVulnerabilityBase();
         }
-        static void Usage()
+
+        private static void Usage()
         {
             Console.WriteLine("");
             Console.WriteLine("ASPAuditor v0.5b by Mesut Timur");
@@ -38,3 +36,4 @@ namespace ASPAuditor
         }
     }
 }
+
