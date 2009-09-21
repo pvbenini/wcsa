@@ -17,7 +17,7 @@
                 
             StreamReader reader = new StreamReader(Constants.REPORT_PATH+"/"+Constants.REPORT_HEAD_FILE);
             string str = @"\//";
-            string filePath = "Report-" + path.Substring(path.LastIndexOfAny(str.ToCharArray()) + 1) + ".html";
+            string filePath = Constants.REPORT_NAME;
             StreamWriter writer = new StreamWriter(filePath);
             int num = 0;
             foreach (Vulnerability vulnerability in vulns)

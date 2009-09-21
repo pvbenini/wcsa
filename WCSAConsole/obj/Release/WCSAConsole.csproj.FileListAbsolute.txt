@@ -1,0 +1,7 @@
+C:\Users\Mesut\Desktop\WCSA\WCSAConsole\bin\Release\WCSAConsole.exe
+C:\Users\Mesut\Desktop\WCSA\WCSAConsole\bin\Release\WCSAConsole.pdb
+C:\Users\Mesut\Desktop\WCSA\WCSAConsole\bin\Release\WCSA.dll
+C:\Users\Mesut\Desktop\WCSA\WCSAConsole\bin\Release\WCSA.pdb
+C:\Users\Mesut\Desktop\WCSA\WCSAConsole\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mesut\Desktop\WCSA\WCSAConsole\obj\Release\WCSAConsole.exe
+C:\Users\Mesut\Desktop\WCSA\WCSAConsole\obj\Release\WCSAConsole.pdb
