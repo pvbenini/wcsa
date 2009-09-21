@@ -17,6 +17,7 @@
 
         public static Vulnerability[] LoadVulns()
         {
+            i = 0;
             vulns = new Vulnerability[400];
             if (!Directory.Exists(Constants.VULN_PATH))
                 throw new WCSAException(Constants.FILE_NOT_FOUND_ERROR);

@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Diagnostics;
 using System.Windows.Forms;
 
 using WCSA;
@@ -53,6 +54,7 @@ namespace WCSAGUI
                                 Reporter reporter = new Reporter();
                                 scanEngine.StartScan(ofd.FileName);
                                 filePath = reporter.GenerateReport(scanEngine.vulns, ofd.FileName);
+                                
                             }
                             catch (WCSAException wcsaexception)
                             {
@@ -64,6 +66,7 @@ namespace WCSAGUI
                             filePath = Application.StartupPath + @"\" + filePath;
                             streamReader.Close();
                             webBrowser1.Navigate(filePath);
+                            
                         }
                     }
                 }
@@ -86,9 +89,63 @@ namespace WCSAGUI
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
+
+        }
+
+
+
+        private void aboutToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
             AboutForm aboutForm = new AboutForm();
-            //aboutForm.Show();
             aboutForm.ShowDialog();
+        }
+
+        private void bugFeatureRequestToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new Process();
+            process.StartInfo.FileName = "http://code.google.com/p/wcsa/issues/list";
+            process.Start();
+        }
+
+        private void top10ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new Process();
+            process.StartInfo.FileName = "http://h71028.www7.hp.com/ERC/cache/571845-0-0-0-121.html";
+            process.Start();
+        }
+
+        private void top10ApplicationSecurityVulnerabilitiesİnWebconfigFilesPartTwoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new Process();
+            process.StartInfo.FileName = "http://h71028.www7.hp.com/ERC/cache/571914-0-0-0-121.html";
+            process.Start();
+        }
+
+        private void theASPNETWebconfigFileDemystifiedToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new Process();
+            process.StartInfo.FileName = "http://articles.sitepoint.com/article/web-config-file-demystified";
+            process.Start();
+        }
+
+        private void aSPNetWebconfigSecurityToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new Process();
+            process.StartInfo.FileName = "http://liamb.com/2008/07/16/aspnet-webconfig-security/";
+            process.Start();
+        }
+
+        private void encryptingConnectionStringsİnWebconfigFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new Process();
+            process.StartInfo.FileName = "http://www.beansoftware.com/ASP.NET-Tutorials/Encrypting-Connection-String.aspxl";
+            process.Start();
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (File.Exists(Constants.REPORT_NAME))
+                File.Delete(Constants.REPORT_NAME);
         }
     }
 }
