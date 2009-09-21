@@ -100,6 +100,8 @@ namespace WCSAGUI
             aboutForm.ShowDialog();
         }
 
+
+        //Very bad implementation for links for this release
         private void bugFeatureRequestToolStripMenuItem_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process process = new Process();
