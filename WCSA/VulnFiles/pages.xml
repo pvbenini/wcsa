@@ -172,7 +172,7 @@
             <span class="style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;pages 
             viewStateEncryptionMode=&quot;<b>Always</b>&quot;&gt;</span></p>
     <h3>
-        <span class="style5">Referencesferences</span></h3>
+        <span class="style5">References</span></h3>
         <ul>
             <li class="style2">
                 http://msdn.microsoft.com/en-us/library/950xf363.aspx</li>
@@ -222,7 +222,7 @@
 	
 	    <p>
             ViewState is only encrypted if one control requests it.So it is not encrypted in 
-            most situtations and an attacker that can be able to monitor your network, can 
+            most situations and an attacker that can be able to monitor your network, can 
             easily analyze &amp; steal your session variables. </p>
 <h3 class="style5">
             Secure Configuration
@@ -233,7 +233,7 @@
             <span class="style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;pages 
             viewStateEncryptionMode=&quot;<b>Always</b>&quot;&gt;</span></p>
     <h3>
-        <span class="style5">Referencesferences</span></h3>
+        <span class="style5">References</span></h3>
         <ul>
             <li class="style2">
                 http://msdn.microsoft.com/en-us/library/950xf363.aspx</li>

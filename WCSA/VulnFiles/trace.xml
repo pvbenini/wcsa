@@ -48,8 +48,8 @@
 	    <p>
             ASP.NET &#39;s trace feature is a powerful mechanism that helps developers to debug 
             and resolve problems at applications. But it is also can be used for malicious 
-            attackers to gain all infiromation about requests and responses to the 
-            application. For this application, traces can be seen from extranets. An attacker can see whole requests between clients and
+            attackers to gain all information about requests and responses to the 
+            application. For this application, traces can be seen from extranets. An attacker can see whole requests among clients and
             application from trace.axd file.
            
             From the trace logs, the attacker can gain session cookies, session state, QueryString and post variables, execution time, etc.</p>

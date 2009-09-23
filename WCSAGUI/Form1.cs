@@ -22,7 +22,6 @@ namespace WCSAGUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
             openAnotherWebConfirForAnalyzeToolStripMenuItem_Click(sender, e);
         }
 
@@ -54,7 +53,7 @@ namespace WCSAGUI
                                 Reporter reporter = new Reporter();
                                 scanEngine.StartScan(ofd.FileName);
                                 filePath = reporter.GenerateReport(scanEngine.vulns, ofd.FileName);
-                                
+
                             }
                             catch (WCSAException wcsaexception)
                             {
@@ -66,7 +65,7 @@ namespace WCSAGUI
                             filePath = Application.StartupPath + @"\" + filePath;
                             streamReader.Close();
                             webBrowser1.Navigate(filePath);
-                            
+
                         }
                     }
                 }
@@ -75,6 +74,9 @@ namespace WCSAGUI
                     MessageBox.Show("Error: Could not read file from disk. Original error: " + ex.Message);
                 }
             }
+            else
+                if(webBrowser1.Url == null)
+                    webBrowser1.Navigate("http://code.google.com/p/wcsa");
         }
 
         private void saveCurrentReportToolStripMenuItem_Click(object sender, EventArgs e)

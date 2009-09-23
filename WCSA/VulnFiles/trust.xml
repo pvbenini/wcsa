@@ -33,10 +33,10 @@
 	<body>
 	
 	    <p>
-            Your ASP.NET web application is working with full privilledges. If it &#39;s 
+            Your ASP.NET web application is working with full privileges. If it &#39;s 
             compromised by an attacker, then the attacker gains full control of your web 
             server. It is a general security principle to run all applications with least 
-            privilledge.</p>
+            privileges.</p>
         <h3 class="style5">
             Secure Configuration
         </h3>

@@ -371,8 +371,8 @@
 	
 	    <p>
             Your application&#39;s cookie path is defined liberal. It means that cookie will be 
-            valid and related whole domain. Restrict the cookie to the spesific directories 
-            on application to deduce risk about cookie related issues.</p>
+            valid and related whole domain. Restrict the cookie to the specific directories 
+            on application to reduce risk about cookie related issues.</p>
         <h3 class="style5">
             Secure Configuration
         </h3>
@@ -425,7 +425,7 @@
 	<body>
 	
 	    <p>
-            Your configuration allows to make URL Redirections. If your applications has an 
+            Your configuration allows to make URL Redirections. If your applications have an 
             URL Redirection vulnerability, this option can protect you and your clients from 
             phishing or related spoofing attacks.</p>
         <h3 class="style5">

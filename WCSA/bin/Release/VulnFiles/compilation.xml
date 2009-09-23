@@ -35,7 +35,7 @@
 	    <p>
             You have enabled debugging on your application. This could be used by attackers 
             to extract useful information such as detailed information and stack trace, etc. 
-            from application. Do not enable debugging on applications which is located on 
+            from application. Do not enable debugging on applications which are located on 
             production environment.</p>
         <h3 class="style5">
             Secure Configuration
