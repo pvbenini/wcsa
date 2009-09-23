@@ -34,7 +34,7 @@
 	<body>
 	
 	    <p>
-            Your configuration allows cookies can be accessed from client-side scripting 
+            Your configuration allows cookies to be be accessed from client-side scripting 
             technologies. This can lead an attacker to perform Cross-Site Scripting and 
             session hijacking &amp; stealing attacks.</p>
         <h3 class="style5">

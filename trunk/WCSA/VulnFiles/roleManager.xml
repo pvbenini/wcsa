@@ -91,7 +91,7 @@
 	    <p>
             Sliding Expiration disables timeouts for RoleManager sessions. If it is set to 
             false, after the timeout interval, user must re-login to application with 
-            credentials. If it is set to true, then if an attackers steals cookie can use it 
+            credentials. If it is set to true, then if an attacker steals cookie can use it 
             for gainin access to the application with the cookie&#39;s owner&#39;s permissions.</p>
         <h3 class="style5">
             Secure Configuration
@@ -303,7 +303,7 @@
 	    <p>
             Your application&#39;s RoleManager cookie path is defined liberal. It means that cookie will be 
             valid and related whole domain. Restrict the cookie to the spesific directories 
-            on application to deduce risk about cookie related issues.</p>
+            on application to reduce risk about cookie related issues.</p>
         <h3 class="style5">
             Secure Configuration
         </h3>

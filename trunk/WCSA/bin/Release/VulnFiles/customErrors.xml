@@ -35,11 +35,11 @@
 	
 	    <p>
             Custom errors have been disabled. This means, ASP.NET web application will 
-            supply more detailed error pages pages to the clients. An attacker can extract 
+            supply more detailed error pages to the clients. An attacker can extract 
             useful&nbsp; information from error messages such as exception types, SQL 
             Queries, source code, ASP.NET and web server version, etc. It is recommended to 
             enable custom errors and doesn&#39;t show any detailed error page to the outer 
-            users. By following belove configuration, only the local users of web server can 
+            users. By following below configuration, only the local users of web server can 
             see detailed error messages.</p>
         <h3 class="style5">
             Secure Configuration
