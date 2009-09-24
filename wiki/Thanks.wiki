@@ -4,4 +4,4 @@
 I'd like to thank; 
 
   * David Christiansen for reporting problems on vulnerability descriptions.
-  * Dataplex for helpful helpful recommendations 
+  * Dataplex for helpful recommendations 
