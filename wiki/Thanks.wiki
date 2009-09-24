@@ -1,6 +1,4 @@
 #labels Featured
-= Thanks =
-
 I'd like to thank; 
 
   * David Christiansen for reporting problems on vulnerability descriptions.
