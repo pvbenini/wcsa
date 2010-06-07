@@ -3,3 +3,4 @@ I'd like to thank;
 
   * David Christiansen for reporting problems on vulnerability descriptions.
   * Dataplex for helpful recommendations 
+  * Neelay Shah for reporting a crash and its fix.
