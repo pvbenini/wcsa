@@ -9,3 +9,15 @@ C:\Users\Mesut\Desktop\WCSA\WCSAGUI\obj\Release\WCSAGUI.Properties.Resources.res
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\obj\Release\WCSAGUI.csproj.GenerateResource.Cache
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\obj\Release\WCSAGUI.exe
 C:\Users\Mesut\Desktop\WCSA\WCSAGUI\obj\Release\WCSAGUI.pdb
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\obj\Release\WCSAGUI.exe
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\obj\Release\WCSAGUI.pdb
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\bin\Release\WCSAGUI.exe
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\bin\Release\WCSAGUI.pdb
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\bin\Release\WCSA.dll
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\bin\Release\WCSA.pdb
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\obj\Release\WCSAGUI.AboutForm.resources
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\obj\Release\WCSAGUI.Form1.resources
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\obj\Release\WCSAGUI.Properties.Resources.resources
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\obj\Release\ResGen.read.1.tlog
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAGUI\obj\Release\ResGen.write.1.tlog

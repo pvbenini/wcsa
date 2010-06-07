@@ -5,3 +5,10 @@ C:\Users\Mesut\Desktop\WCSA\WCSAConsole\bin\Release\WCSA.pdb
 C:\Users\Mesut\Desktop\WCSA\WCSAConsole\obj\Release\ResolveAssemblyReference.cache
 C:\Users\Mesut\Desktop\WCSA\WCSAConsole\obj\Release\WCSAConsole.exe
 C:\Users\Mesut\Desktop\WCSA\WCSAConsole\obj\Release\WCSAConsole.pdb
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAConsole\bin\Release\WCSAConsole.exe
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAConsole\bin\Release\WCSAConsole.pdb
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAConsole\bin\Release\WCSA.dll
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAConsole\bin\Release\WCSA.pdb
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAConsole\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAConsole\obj\Release\WCSAConsole.exe
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSAConsole\obj\Release\WCSAConsole.pdb

@@ -22,3 +22,27 @@ C:\Users\Mesut\Desktop\WCSA\WCSA\bin\Release\WCSA.pdb
 C:\Users\Mesut\Desktop\WCSA\WCSA\obj\Release\ResolveAssemblyReference.cache
 C:\Users\Mesut\Desktop\WCSA\WCSA\obj\Release\WCSA.dll
 C:\Users\Mesut\Desktop\WCSA\WCSA\obj\Release\WCSA.pdb
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\compilation.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\customErrors.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\forms.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\httpCookies.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\httpRunTime.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\pages.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\roleManager.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\sessionState.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\trace.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\trust.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\user.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\SampleConfigs\n2-web.config
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\SampleConfigs\no-option-web.config
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\SampleConfigs\strong-web.config
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\SampleConfigs\weak-web.config
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\Reporting\head.html
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\Reporting\issue.htm
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\Reporting\owasp.png
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\VulnFiles\credentials.xml
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\WCSA.dll
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\bin\Release\WCSA.pdb
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\obj\Release\WCSA.dll
+C:\Users\Mesut\Documents\Visual Studio 2010\Projects\WCSA\WCSA\obj\Release\WCSA.pdb

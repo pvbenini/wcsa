@@ -67,20 +67,20 @@
             this.openAnotherWebConfirForAnalyzeToolStripMenuItem,
             this.saveCurrentReportToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(35, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // openAnotherWebConfirForAnalyzeToolStripMenuItem
             // 
             this.openAnotherWebConfirForAnalyzeToolStripMenuItem.Name = "openAnotherWebConfirForAnalyzeToolStripMenuItem";
-            this.openAnotherWebConfirForAnalyzeToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.openAnotherWebConfirForAnalyzeToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
             this.openAnotherWebConfirForAnalyzeToolStripMenuItem.Text = "Open Web.config to Analyze";
             this.openAnotherWebConfirForAnalyzeToolStripMenuItem.Click += new System.EventHandler(this.openAnotherWebConfirForAnalyzeToolStripMenuItem_Click);
             // 
             // saveCurrentReportToolStripMenuItem
             // 
             this.saveCurrentReportToolStripMenuItem.Name = "saveCurrentReportToolStripMenuItem";
-            this.saveCurrentReportToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.saveCurrentReportToolStripMenuItem.Size = new System.Drawing.Size(225, 22);
             this.saveCurrentReportToolStripMenuItem.Text = "Save Current Report";
             this.saveCurrentReportToolStripMenuItem.Click += new System.EventHandler(this.saveCurrentReportToolStripMenuItem_Click);
             // 
@@ -90,21 +90,21 @@
             this.aboutToolStripMenuItem1,
             this.bugFeatureRequestToolStripMenuItem});
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(40, 20);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.aboutToolStripMenuItem.Text = "Help";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem1
             // 
             this.aboutToolStripMenuItem1.Name = "aboutToolStripMenuItem1";
-            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(186, 22);
+            this.aboutToolStripMenuItem1.Size = new System.Drawing.Size(195, 22);
             this.aboutToolStripMenuItem1.Text = "About";
             this.aboutToolStripMenuItem1.Click += new System.EventHandler(this.aboutToolStripMenuItem1_Click);
             // 
             // bugFeatureRequestToolStripMenuItem
             // 
             this.bugFeatureRequestToolStripMenuItem.Name = "bugFeatureRequestToolStripMenuItem";
-            this.bugFeatureRequestToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.bugFeatureRequestToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
             this.bugFeatureRequestToolStripMenuItem.Text = "Bug && Feature Request";
             this.bugFeatureRequestToolStripMenuItem.Click += new System.EventHandler(this.bugFeatureRequestToolStripMenuItem_Click);
             // 
@@ -117,41 +117,41 @@
             this.aSPNetWebconfigSecurityToolStripMenuItem,
             this.encryptingConnectionStringsİnWebconfigFileToolStripMenuItem});
             this.externalResourcesToolStripMenuItem.Name = "externalResourcesToolStripMenuItem";
-            this.externalResourcesToolStripMenuItem.Size = new System.Drawing.Size(112, 20);
+            this.externalResourcesToolStripMenuItem.Size = new System.Drawing.Size(116, 20);
             this.externalResourcesToolStripMenuItem.Text = "External Resources";
             // 
             // top10ToolStripMenuItem
             // 
             this.top10ToolStripMenuItem.Name = "top10ToolStripMenuItem";
-            this.top10ToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.top10ToolStripMenuItem.Size = new System.Drawing.Size(458, 22);
             this.top10ToolStripMenuItem.Text = "Top 10 Application Security Vulnerabilities in Web.config Files – Part One";
             this.top10ToolStripMenuItem.Click += new System.EventHandler(this.top10ToolStripMenuItem_Click);
             // 
             // top10ApplicationSecurityVulnerabilitiesİnWebconfigFilesPartTwoToolStripMenuItem
             // 
             this.top10ApplicationSecurityVulnerabilitiesİnWebconfigFilesPartTwoToolStripMenuItem.Name = "top10ApplicationSecurityVulnerabilitiesİnWebconfigFilesPartTwoToolStripMenuItem";
-            this.top10ApplicationSecurityVulnerabilitiesİnWebconfigFilesPartTwoToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.top10ApplicationSecurityVulnerabilitiesİnWebconfigFilesPartTwoToolStripMenuItem.Size = new System.Drawing.Size(458, 22);
             this.top10ApplicationSecurityVulnerabilitiesİnWebconfigFilesPartTwoToolStripMenuItem.Text = "Top 10 Application Security Vulnerabilities in Web.config Files – Part Two";
             this.top10ApplicationSecurityVulnerabilitiesİnWebconfigFilesPartTwoToolStripMenuItem.Click += new System.EventHandler(this.top10ApplicationSecurityVulnerabilitiesİnWebconfigFilesPartTwoToolStripMenuItem_Click);
             // 
             // theASPNETWebconfigFileDemystifiedToolStripMenuItem
             // 
             this.theASPNETWebconfigFileDemystifiedToolStripMenuItem.Name = "theASPNETWebconfigFileDemystifiedToolStripMenuItem";
-            this.theASPNETWebconfigFileDemystifiedToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.theASPNETWebconfigFileDemystifiedToolStripMenuItem.Size = new System.Drawing.Size(458, 22);
             this.theASPNETWebconfigFileDemystifiedToolStripMenuItem.Text = "The ASP.NET Web.config File Demystified";
             this.theASPNETWebconfigFileDemystifiedToolStripMenuItem.Click += new System.EventHandler(this.theASPNETWebconfigFileDemystifiedToolStripMenuItem_Click);
             // 
             // aSPNetWebconfigSecurityToolStripMenuItem
             // 
             this.aSPNetWebconfigSecurityToolStripMenuItem.Name = "aSPNetWebconfigSecurityToolStripMenuItem";
-            this.aSPNetWebconfigSecurityToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.aSPNetWebconfigSecurityToolStripMenuItem.Size = new System.Drawing.Size(458, 22);
             this.aSPNetWebconfigSecurityToolStripMenuItem.Text = "ASP.Net Web.config Security";
             this.aSPNetWebconfigSecurityToolStripMenuItem.Click += new System.EventHandler(this.aSPNetWebconfigSecurityToolStripMenuItem_Click);
             // 
             // encryptingConnectionStringsİnWebconfigFileToolStripMenuItem
             // 
             this.encryptingConnectionStringsİnWebconfigFileToolStripMenuItem.Name = "encryptingConnectionStringsİnWebconfigFileToolStripMenuItem";
-            this.encryptingConnectionStringsİnWebconfigFileToolStripMenuItem.Size = new System.Drawing.Size(420, 22);
+            this.encryptingConnectionStringsİnWebconfigFileToolStripMenuItem.Size = new System.Drawing.Size(458, 22);
             this.encryptingConnectionStringsİnWebconfigFileToolStripMenuItem.Text = "Encrypting Connection Strings in web.config file";
             this.encryptingConnectionStringsİnWebconfigFileToolStripMenuItem.Click += new System.EventHandler(this.encryptingConnectionStringsİnWebconfigFileToolStripMenuItem_Click);
             // 
@@ -181,10 +181,10 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Web.config Security Analyzer v1.0.2";
+            this.Text = "Web.config Security Analyzer v1.0.3";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
