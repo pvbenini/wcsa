@@ -14,10 +14,17 @@
             {
                 if (vulnerability != null)
                 {
-                    if ((vulnerability.pr.tag == xtrName) && (attributes[vulnerability.pr.property].ToString() == vulnerability.pr.value))
+                    if (vulnerability.pr.tag == xtrName)
                     {
-                        vulnerability.pr.isPassed = true;
+                        if (attributes[vulnerability.pr.property] != null && attributes[vulnerability.pr.property].ToString() == vulnerability.pr.value)
+                        {
+                            vulnerability.pr.isPassed = true;
+                        }
                     }
+                    //if ((vulnerability.pr.tag == xtrName) && (attributes[vulnerability.pr.property].ToString() == vulnerability.pr.value))
+                    //{
+                    //    vulnerability.pr.isPassed = true;
+                    //}
                     if (vulnerability.pr.isPassed && (xtrName == vulnerability.codename))
                     {
                         int num = 0;
