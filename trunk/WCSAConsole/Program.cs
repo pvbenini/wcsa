@@ -61,7 +61,7 @@ namespace WCSAConsole
         private static void Usage()
         {
             Console.WriteLine("");
-            Console.WriteLine("WCSAConsole v1.0.2 by Mesut Timur");
+            Console.WriteLine("WCSAConsole v1.0.3 by Mesut Timur");
             Console.WriteLine("Sample Usage : ");
             Console.WriteLine("WCSAconsole.exe \"C:\\Inetpub\\wwwroot\\web.config\"");
             Console.WriteLine("");

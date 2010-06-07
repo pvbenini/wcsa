@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCSAGUI", "WCSAGUI\WCSAGUI.csproj", "{2CC525DE-845D-46BB-91BC-657F5F93AAEA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCSAConsole", "WCSAConsole\WCSAConsole.csproj", "{2DC1AE41-0B5A-4804-9240-8D95856A18AA}"
