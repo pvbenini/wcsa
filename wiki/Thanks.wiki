@@ -1,6 +1,5 @@
 #labels Featured
 I'd like to thank; 
 
-  * David Christiansen for reporting problems on vulnerability descriptions.
-  * Dataplex for helpful recommendations 
-  * Neelay Shah for reporting a crash and fix.
+  * Sumit Siddarth for Oracle exploitation idea and attack examples.
+  * Aleksander Gorkowienko for lots of bug notification and his helpful recommendations. 
